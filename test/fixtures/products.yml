@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+small_arms:
+  title: M1911
+  description: Standard issue military sidearm throughout most of the 20th century. Fires .45 caliber bullets.
+  image_url: 1911.jpg
+  price: 799.99
 
-two:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+light_machine_guns:
+  title: Tommy Gun
+  description: Rapid fire machine gun used by military, police, and gangsters alike in the early 20th century. Fires .45 caliber bullets and      is capable of accepting a 100 round drum magazine.
+  image_url: tommygun.jpg
+  price: 1299.99
