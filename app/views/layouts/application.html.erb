@@ -8,11 +8,15 @@
 </head>
 <body class="<%= controller.controller_name  %>">
   <div id="banner">
-    <%= image_tag("tank_logo.png") %>
+    <!-- <%= image_tag("tank_logo.jpg") %> -->
     <%= @page_title || "Weapons Depot" %>
   </div>
   <div id="columns">
     <div id="side">
+      <div id="cart">
+        <%= render @cart %>
+      </div>
+
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="#">FAQ</a></li>
